@@ -1,0 +1,37 @@
+@keyframes mercy {
+    from{transform: translateX(200px);}
+    to{transform: translateY(200px);}
+}
+h1{
+    animation-name: mercy;
+    animation-duration: 2s;
+    animation-timing-function:linear;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    transform: translate(200px);
+    /* animation:slide-in-left 2s linear 2s 1 forwards; shorthand command */
+}
+div{
+    width: 50px;
+    height:50px;
+    background-color: pink;
+    animation-name: mercy;
+    animation-duration: 2s;
+    animation-timing-function:linear;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    transform: translate(200px);
+}
+#rotate{
+    animation:bounce 2s ease-in 2s 4 normal-forwards; 
+    transform:translate(-150px);
+}
+p{
+    white-space: wrap;
+    width:200px;
+    border: 1px solid black;
+    overflow:hidden;
+    text-overflow: ellipsis;
+}
